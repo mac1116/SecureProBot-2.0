@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -b 0.0.0.0:$PORT SecureProBotApp:app
+web: gunicorn -w 1 -b 0.0.0.0:$PORT --timeout 120 SecureProBotApp:app
