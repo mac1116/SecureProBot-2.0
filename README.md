@@ -124,7 +124,7 @@ SecureProBot-2.0/
 ## Team
 
 - **Joevan B. Capote** — Backend & ML
-- **Mheil Andrei N. Cenita** — Frontend & UI/UX
+- **Mheil Andrei N. Cenita** — FullStack & UI/UX
 
 University of Mindanao
 
