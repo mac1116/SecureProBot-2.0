@@ -132,7 +132,4 @@ University of Mindanao
 
 Research and educational use only.
 
----
-
-**Version 2.1** — Built with ❤️ for platform safety
 
