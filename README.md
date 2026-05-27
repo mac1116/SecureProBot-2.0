@@ -2,6 +2,8 @@
 
 AI-powered bot detection using hybrid LSTM + Ensemble models to detect fake Twitter/X accounts with 94.42% accuracy.
 
+🚀 **[Try Live Demo](https://secureprobot-2-0.onrender.com/)**
+
 ## Features
 
 - 🤖 **Hybrid AI Model**: LSTM feature extraction + Ensemble classification
