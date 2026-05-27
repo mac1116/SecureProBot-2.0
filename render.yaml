@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: secureprobot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 4 -b 0.0.0.0:$PORT SecureProBotApp:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: FLASK_SECRET_KEY
+        generateValue: true
+    autoDeploy: true
