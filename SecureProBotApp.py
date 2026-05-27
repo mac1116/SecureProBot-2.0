@@ -1913,6 +1913,10 @@ if __name__ == '__main__':
     else:
         print("  ⚠ No model found — using heuristic engine")
         print(f"    Expected: {BUNDLE_PATH}")
-    print("  → http://127.0.0.1:5000")
+    
+    # Support Render and other cloud platforms
+    port = int(os.getenv('PORT', 5000))
+    debug = os.getenv('FLASK_ENV') == 'development'
+    print(f"  → http://0.0.0.0:{port}")
     print("=" * 62)
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=debug, host='0.0.0.0', port=port)
